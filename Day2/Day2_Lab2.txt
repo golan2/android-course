@@ -1,0 +1,6 @@
+You can use the Tasky_Solution.zip as a starter project for this exercise.
+
+1. When the user inputs a phone number as a task (e.g. "5551212"), and clicks the task's row in the ListView, you should open the dialer with that number. Use Intent.ACTION_DIAL as in the demo.
+
+2. When the user clicks the "Share" option in the options menu, generate a long string with all the tasks and launch an intent with the Intent.ACTION_SEND action. See the following link for a detailed walkthrough:
+http://developer.android.com/training/sharing/send.html

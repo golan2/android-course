@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hp.tipcalculator.MainActivity" >
+
+    <item
+        android:id="@+id/menuItemPreferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/preferences"/>
+
+</menu>

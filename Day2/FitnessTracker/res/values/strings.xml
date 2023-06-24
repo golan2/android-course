@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fitness Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete_all">Delete All</string>
+    <string name="share">Share</string>
+    <string name="fitness_activity_options">Fitness Activity Options</string>
+
+</resources>
