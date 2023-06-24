@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="horizontal">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:text="Item" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/row_item" android:paddingLeft="10px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:text="Amount" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/row_amount" android:paddingRight="10px" android:layout_alignBaseline="@id/row_item" android:layout_alignBottom="@id/row_item" android:layout_alignParentRight="true"></TextView>
+    
+</RelativeLayout>

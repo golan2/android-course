@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Font used: normal"
+	    android:typeface="normal"
+	    android:textSize="40px"/>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Font used: sans"
+	    android:typeface="sans"
+	    android:textSize="40px"/>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Font used: serif"
+	    android:typeface="serif"
+	    android:textSize="40px"/>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Font used: monospace"
+	    android:typeface="monospace"
+	    android:textSize="40px"/>
+	<TextView android:id="@+id/theText"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Font used: Zapfino"
+	    android:textSize="40px"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tasky</string>
+    <string name="enter_task_here">enter task here</string>
+    <string name="add">Add</string>
+    <string name="sample_task_1">buy flowers</string>
+    <string name="sample_task_2">throw out the trash</string>
+    <string name="delete_all">Delete All</string>
+    <string name="preferences">Preferences</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="complete">Complete</string>
+    <string name="title_activity_edit">Edit Task</string>
+    <string name="save">Save</string>
+    <string name="snooze">Snooze</string>
+
+</resources>

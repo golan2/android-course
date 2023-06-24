@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/padding"
+    >
+	<Button android:id="@+id/btnLinearLayout"
+		android:text="Linear Layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<Button android:id="@+id/btnFrameLayout"
+		android:text="Frame Layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<Button android:id="@+id/btnRelativeLayout"
+		android:text="Relative Layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<Button android:id="@+id/btnTableLayout"
+		android:text="Table Layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<Button android:id="@+id/btnMixedLayout"
+		android:text="Mixing Layouts"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<Button android:id="@+id/btnCodeLayout"
+		android:text="Layout from code"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/main_category">
+        <CheckBoxPreference android:title="@string/auto_update" android:key="auto_update" android:summary="@string/auto_update_detail"></CheckBoxPreference>
+        <EditTextPreference android:title="@string/host_name" android:key="host_name" android:summary="@string/host_name_detail"></EditTextPreference>
+        
+    </PreferenceCategory><PreferenceCategory android:title="@string/second_category">
+        <RingtonePreference android:title="@string/ring_tone" android:summary="@string/ring_tone_detail"></RingtonePreference>
+        <PreferenceScreen android:title="@string/advanced_screen" android:summary="@string/advanced_screen_details">
+            <CheckBoxPreference android:title="@string/auto_update" android:summary="@string/auto_update_detail"></CheckBoxPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>    
+</PreferenceScreen>

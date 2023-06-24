@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, UsingResourcesSampleActivity!</string>
+    <string name="app_name">Using Resources</string>
+    <string name="styled_hello"><b>Hello</b> from <i>resources</i>!</string>
+    <string name="styled_for_code">&lt;b>Hello&lt;/b> from resources, &lt;u>%1$s&lt;/u>!</string>
+</resources>

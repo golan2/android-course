@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="General Settings">
+        <EditTextPreference android:title="Server name" android:summary="The name of the fitness tracking server" android:key="server_name"/>
+        <CheckBoxPreference android:summary="Allow modifying fitness activities while not connected" android:title="Work offline" android:key="work_offline"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Advanced Settings">
+        <PreferenceScreen android:title="Advanced">
+            <CheckBoxPreference android:title="Don't Change Me"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

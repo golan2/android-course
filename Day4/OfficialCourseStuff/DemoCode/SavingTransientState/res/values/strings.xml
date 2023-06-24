@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saving Transient State</string>
+    <string name="prefs">Preferences</string>
+    <string name="main_category">Main Preferences</string>
+    <string name="auto_update">Auto Update?</string>
+    <string name="host_name">Host Name</string>
+    <string name="show_curr_pref">Show Text</string>
+    <string name="host_name_detail">The host name to use when connecting to Foo</string>
+    <string name="auto_update_detail">Should this application automatically update?</string>
+    <string name="second_category">Advanced Preferences</string>
+    <string name="ring_tone">Ringtone</string>
+    <string name="ring_tone_detail">Which ring tone to use when connecting to Foo</string>
+    <string name="advanced_screen">Advanced Screen</string>
+    <string name="advanced_screen_details">Additional advanced preferences</string>
+</resources>

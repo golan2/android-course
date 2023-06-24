@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity Communication</string>
+    <string name="prompt">Please enter a number. Any number.</string>
+    <string name="select_number">Select Number</string>
+</resources>

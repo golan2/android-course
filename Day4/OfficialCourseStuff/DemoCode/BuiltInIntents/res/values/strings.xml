@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Built-in Intents</string>
+    <string name="default_text">555-1212 is the phone number of john.doe@example.com</string>
+</resources>

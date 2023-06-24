@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/dialButton" android:text="Dial" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        <Button android:id="@+id/geoButton" android:text="Geo" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        <Button android:id="@+id/webSearchButton" android:text="Search" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        <Button android:id="@+id/picturePickButton" android:text="Pick" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/mainText" android:text="@string/default_text" android:autoLink="all">
+    </TextView>
+    <ImageView android:src="@drawable/icon" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/mainImageView"></ImageView>
+</LinearLayout>

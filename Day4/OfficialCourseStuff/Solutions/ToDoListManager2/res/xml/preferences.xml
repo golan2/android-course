@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:title="To Do List Preferences">
+    <CheckBoxPreference android:key="delete_enabled" android:title="@string/delete_enabled" android:summary="@string/delete_enabled_detail"></CheckBoxPreference>
+    <EditTextPreference android:key="default_text" android:title="@string/default_text" android:summary="@string/default_text_detail"></EditTextPreference>
+    
+</PreferenceScreen>

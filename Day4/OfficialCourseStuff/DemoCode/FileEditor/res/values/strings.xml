@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File Editor</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="file_picker">Pick a File</string>
+</resources>

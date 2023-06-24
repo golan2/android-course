@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Popups Demo</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="toast_text">Hello from <b><u><i>toast</i></u></b> notification!</string>
+    <string name="show_alert">Show Alert</string>
+    <string name="alert_title">Alert Demo</string>
+    <string name="alert_message">Alert! Alert! Alert!</string>
+</resources>

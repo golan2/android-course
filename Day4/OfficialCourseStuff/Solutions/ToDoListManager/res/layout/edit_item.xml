@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="horizontal">
+        <TextView android:paddingLeft="10px" android:text="Task:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/promptTask"></TextView>
+        <EditText android:paddingRight="10px" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="4.94" android:id="@+id/editTaskText">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="horizontal">
+        <TextView android:text="Due Date:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/promptDueDate"></TextView>
+        <DatePicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/editDueDatePicker"></DatePicker>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout3">
+        <Button android:id="@+id/okButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok"></Button>
+        <Button android:id="@+id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

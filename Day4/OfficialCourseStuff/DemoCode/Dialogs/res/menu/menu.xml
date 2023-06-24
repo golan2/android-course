@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/selection" android:title="Selection Dialog"></item>
+    <item android:id="@+id/prompt" android:title="Prompt Dialog"></item>
+    <item android:id="@+id/dos" android:title="DOS Error Dialog"></item>
+    <item android:id="@+id/activity" android:title="Dialog Activity"></item>
+    <item android:id="@+id/date" android:title="Date Picker Dialog"></item>
+</menu>

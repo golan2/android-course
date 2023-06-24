@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/prefs" android:id="@+id/menuPrefs" android:icon="@drawable/icon"></item>
+    <item android:title="@string/show_curr_pref" android:id="@+id/showCurrentPref"></item>
+    
+</menu>

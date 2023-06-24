@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<array name="names">
+		<item>Alex</item>
+		<item>John</item>
+		<item>Joe</item>
+		<item>Nicole</item>
+		<item>Leon</item>
+	</array>
+	<array name="scores">
+		<item>95</item>
+		<item>67</item>
+		<item>87</item>
+	</array>
+	<array name="colors">
+		<item>#FF000000</item>
+		<item>#FFFF0000</item>
+		<item>#FF00FF00</item>
+		<item>#FF0000FF</item>
+	</array>
+	<string-array name="streets">
+	   	<item>1st street</item>
+	   	<item>224th NE Ave</item>
+	   	<item>22nd SE Dr</item>
+   </string-array>
+   <integer-array name="ages">
+	   	<item>34</item>
+	   	<item>52</item>
+	   	<item>13</item>
+   </integer-array>
+</resources>

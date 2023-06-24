@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To Do List Manager</string>
+    <string name="edit_name">Edit TODO Item</string>
+    <string name="default_text">Default Text</string>
+    <string name="default_text_detail">The default To Do item text</string>
+    <string name="delete_enabled">Delete Enabled</string>
+    <string name="delete_enabled_detail">Whether items can be deleted</string>
+    <string name="preferences_name">To Do Preferences</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/styled_hello"
+    android:textColor="@color/main_blue"
+    android:padding="@dimen/simple_border"
+    android:textSize="@dimen/font_size"
+    />
+    
+    <TextView android:id="@+id/text"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:text="@string/styled_hello"
+    		android:padding="@dimen/simple_border"
+    		android:textColor="@android:color/darker_gray"
+    />
+    <ImageView android:id="@+id/walking_animation"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+    />
+</LinearLayout>

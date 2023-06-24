@@ -1,0 +1,15 @@
+Import the Tasky4 project into your workspace using File > Import > General > Existing Projects Into Workspace.
+
+Review the changes to the Task class -- it now has a due date, and a method called snooze24Hours() that postpones the due date.
+
+Review the MainActivity.onContextItemSelected() method -- the context menu has an additional "Snooze" option, which calls snooze24Hours() on the selected Task object.
+
+Implement an adapter that extends ArrayAdapter<Task> and returns a custom view from its getView() method. The view should have the following structure (feel free to customize it, though):
+
+	> LinearLayout (horizontal)
+		> CheckBox chkTask    (layout_weight = 2)
+		> TextView txtDueDate (layout_weight = 1)
+
+The CheckBox should be initialized with the task's title. When clicked, the underlying Task object should be marked as completed, and the text style of the CheckBox and the TextView should be changed to strikethrough (Google "android paintflags strikethrough").
+
+The TextView should be initialized with the task's due date, in a date format of your choosing. If the task is past due, the due date should be displayed in red.

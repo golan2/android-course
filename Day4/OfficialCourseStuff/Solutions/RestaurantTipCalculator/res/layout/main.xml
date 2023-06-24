@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal"
+	android:paddingLeft="10px" android:paddingRight="10px"
+	android:paddingTop="10px" android:paddingBottom="10px">
+	<TextView android:id="@+id/helloLabel" android:layout_height="wrap_content"
+		android:text="@string/hello" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"></TextView>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_height="wrap_content" android:text="Bill: "
+			android:layout_width="wrap_content"></TextView>
+		<EditText android:id="@+id/txtBillAmount"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:layout_width="wrap_content" android:inputType="numberDecimal">
+		</EditText>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:text="Tip: " android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"></TextView>
+		<Spinner android:id="@+id/spinnerTip" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></Spinner>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:text="Party: " android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"></TextView>
+		<Spinner android:id="@+id/spinnerParty" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></Spinner>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:gravity="center_horizontal">
+		<ToggleButton android:id="@+id/tglBtnRoundTip"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textOn="Rounded tip" android:textOff="Exact tip" android:layout_weight="1"></ToggleButton>
+		<ToggleButton android:id="@+id/tglBtnRoundTotal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textOn="Rounded total" android:textOff="Exact total" android:layout_weight="1"></ToggleButton>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:gravity="fill_horizontal">
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_weight="1" 
+			android:gravity="center_horizontal">
+			<TextView android:layout_height="wrap_content" android:text="My Tip:"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:id="@+id/txtMyTip" android:layout_height="wrap_content"
+				android:text="$0.00" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Total Tip:"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:id="@+id/txtTotalTip"
+				android:layout_height="wrap_content" android:text="$0.00"
+				android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_weight="1"
+			android:gravity="center_horizontal">
+			<TextView android:layout_height="wrap_content" android:text="My Total:"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:id="@+id/txtMyTotal"
+				android:layout_height="wrap_content" android:text="$0.00"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Total:"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:id="@+id/txtTotal" android:layout_height="wrap_content"
+				android:text="$0.00" android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
